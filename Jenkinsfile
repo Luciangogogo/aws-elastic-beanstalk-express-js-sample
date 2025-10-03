@@ -10,7 +10,7 @@ pipeline {
         DOCKER_CREDENTIALS = credentials('docker-hub-credentials')
         // Snyk API Token(need to be configured in Jenkins)
         SNYK_TOKEN = credentials('snyk-api-token')
-        DOCKER_IMAGE = "your-dockerhub-username/nodejs-app"
+        DOCKER_IMAGE = "luciangogogo/nodejs-app"
         BUILD_TAG = "${env.BUILD_NUMBER}"
     }
     
