@@ -29,8 +29,6 @@ pipeline {
         timestamps()
         // 禁止并发构建
         disableConcurrentBuilds()
-        // ANSI颜色输出
-        ansiColor('xterm')
     }
     
     stages {
