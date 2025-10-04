@@ -1,6 +1,6 @@
 pipeline {
     // 不指定默认agent，每个stage自己决定使用哪个agent
-    agent none
+    agent any
     
     // 全局环境变量
     environment {
